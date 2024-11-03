@@ -1,9 +1,16 @@
-#container{
+body{
+    background-color: black;
+}
+.container{
     
         text-align: center;
-        width: 228px;
+        width: 100vw;
         display: flex;
+        justify-content: center;
         align-items: center;
         height: 60vh;
     
+}
+.suppr{
+    width: 15%;
 }
