@@ -1,0 +1,9 @@
+#container{
+    
+        text-align: center;
+        width: 228px;
+        display: flex;
+        align-items: center;
+        height: 60vh;
+    
+}
