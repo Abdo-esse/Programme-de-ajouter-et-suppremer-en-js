@@ -23,3 +23,10 @@ ajouter.onclick= function(e){
            span.innerHTML='makaynax'
         }
      }
+     /*---------------------definition du fonction de suprumer la derrinier--------------------- */
+     suppr.onclick = function (params) {
+        tableau.pop();
+        console.log(tableau);
+        
+        affiche.innerHTML=tableau
+    }
